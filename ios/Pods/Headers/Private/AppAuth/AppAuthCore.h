@@ -1,0 +1,5 @@
+XSym
+0037
+fdab4d2cea6ae08c364ae68a9684c5ec
+../../../AppAuth/Source/AppAuthCore.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

@@ -1,0 +1,5 @@
+XSym
+0093
+1e077aa8f833a6cdd35011b6c75883d3
+../../../GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GDTCORStorageProtocol.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  

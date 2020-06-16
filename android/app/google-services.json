@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "959405730943",
+    "firebase_url": "https://crocoplantvf.firebaseio.com",
+    "project_id": "crocoplantvf",
+    "storage_bucket": "crocoplantvf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959405730943:android:ab74e92045a9fb43d3634a",
+        "android_client_info": {
+          "package_name": "com.crocopark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959405730943-r0804rrdu0qfmvpjb43oh2o2qhr6k09d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.crocopark",
+            "certificate_hash": "d2712ce2144a4e281b5609535270814bf22a2ff4"
+          }
+        },
+        {
+          "client_id": "959405730943-bue9bmbu01tuc27l9fn1go82hfu4bdgg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJt6WzbDWxF0LE9DnM-WcPviVL4hL93XM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959405730943-bue9bmbu01tuc27l9fn1go82hfu4bdgg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "959405730943-hb9aiue4b3t5p67eh2mfsok3rb8ujo61.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.exemple.Crocopark"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,5 @@
+XSym
+0091
+7efa5dda82506655732f2de040406f35
+../../../../../node_modules/react-native-camera/ios/RCT/NSMutableDictionary+ImageMetadata.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

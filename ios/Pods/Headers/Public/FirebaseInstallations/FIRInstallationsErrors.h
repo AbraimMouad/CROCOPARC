@@ -1,0 +1,5 @@
+XSym
+0099
+5a532e5989c5c7d3c12d94a37dab9fc3
+../../../FirebaseInstallations/FirebaseInstallations/Source/Library/Public/FIRInstallationsErrors.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

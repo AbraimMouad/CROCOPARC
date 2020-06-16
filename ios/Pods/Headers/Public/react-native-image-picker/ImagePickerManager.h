@@ -1,0 +1,5 @@
+XSym
+0078
+5fd9e9bbecd9ea35585d3bd0a00f5755
+../../../../../node_modules/react-native-image-picker/ios/ImagePickerManager.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

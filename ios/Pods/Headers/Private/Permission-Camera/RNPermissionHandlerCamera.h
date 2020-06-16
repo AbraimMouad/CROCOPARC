@@ -1,0 +1,5 @@
+XSym
+0091
+8f8ec5cc5a0774fb584e76863e6ecaab
+../../../../../node_modules/react-native-permissions/ios/Camera/RNPermissionHandlerCamera.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

@@ -1,0 +1,6 @@
+module Pods_Crocopark {
+  umbrella header "Pods-Crocopark-umbrella.h"
+
+  export *
+  module * { export * }
+}

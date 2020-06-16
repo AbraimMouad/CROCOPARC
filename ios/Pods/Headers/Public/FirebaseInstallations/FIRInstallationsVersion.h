@@ -1,0 +1,5 @@
+XSym
+0100
+e9467845ead55c641c352e05fae29698
+../../../FirebaseInstallations/FirebaseInstallations/Source/Library/Public/FIRInstallationsVersion.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

@@ -1,0 +1,5 @@
+XSym
+0101
+263667340771794992f6aaaef009ed52
+../../../../../../node_modules/react-native/ReactCommon/callinvoker/ReactCommon/BridgeJSCallInvoker.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

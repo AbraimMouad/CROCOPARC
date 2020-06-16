@@ -1,0 +1,5 @@
+XSym
+0116
+bb5910452222ce631f247fdaea234288
+../../../GoogleDataTransportCCTSupport/GoogleDataTransportCCTSupport/GDTCCTLibrary/Private/GDTCCTCompressionHelper.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

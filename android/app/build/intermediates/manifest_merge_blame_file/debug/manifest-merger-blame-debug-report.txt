@@ -1,0 +1,278 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.crocopark"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" /> <!-- Pour acceder aux composants de device -->
+12-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:6:5-65
+13-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:6:22-62
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:7:5-65
+14-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:7:22-63
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:8:5-80
+15-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:8:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:9:5-78
+16-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:9:22-76
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->[com.facebook.flipper:flipper:0.33.1] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\bbd3bfd1d4957813399ece08b6ade37e\jetified-flipper-0.33.1\AndroidManifest.xml:16:5-76
+17-->[com.facebook.flipper:flipper:0.33.1] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\bbd3bfd1d4957813399ece08b6ade37e\jetified-flipper-0.33.1\AndroidManifest.xml:16:22-73
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->[:react-native-maps] C:\Users\mouad\OneDrive\Bureau\Croco\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-81
+18-->[:react-native-maps] C:\Users\mouad\OneDrive\Bureau\Croco\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-78
+19
+20    <uses-feature
+20-->[:react-native-camera] C:\Users\mouad\OneDrive\Bureau\Croco\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:11:5-13:36
+21        android:name="android.hardware.camera"
+21-->[:react-native-camera] C:\Users\mouad\OneDrive\Bureau\Croco\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:12:9-47
+22        android:required="false" />
+22-->[:react-native-camera] C:\Users\mouad\OneDrive\Bureau\Croco\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:13:9-33
+23    <uses-feature
+23-->[:react-native-camera] C:\Users\mouad\OneDrive\Bureau\Croco\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:14:5-16:36
+24        android:name="android.hardware.camera.autofocus"
+24-->[:react-native-camera] C:\Users\mouad\OneDrive\Bureau\Croco\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:15:9-57
+25        android:required="false" /> <!-- Include required permissions for Google Maps API to run. -->
+25-->[:react-native-camera] C:\Users\mouad\OneDrive\Bureau\Croco\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:16:9-33
+26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+26-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\bd8441e52f52fdad6a423774fa7fd105\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+26-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\bd8441e52f52fdad6a423774fa7fd105\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+27
+28    <uses-feature
+28-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\bd8441e52f52fdad6a423774fa7fd105\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+29        android:glEsVersion="0x00020000"
+29-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\bd8441e52f52fdad6a423774fa7fd105\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+30        android:required="true" />
+30-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\bd8441e52f52fdad6a423774fa7fd105\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+31
+32    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+32-->[com.android.installreferrer:installreferrer:1.0] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\c4b1eaedcac211e42a752001ab07645c\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+32-->[com.android.installreferrer:installreferrer:1.0] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\c4b1eaedcac211e42a752001ab07645c\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+33
+34    <application
+34-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:11:5-38:19
+35        android:name="com.crocopark.MainApplication"
+35-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:12:7-38
+36        android:allowBackup="false"
+36-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:16:7-34
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.1.0] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\f0d5be975fec9a07834c10edd6b2cb66\core-1.1.0\AndroidManifest.xml:24:18-86
+38        android:debuggable="true"
+39        android:icon="@mipmap/ic_launcher"
+39-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:14:7-41
+40        android:label="@string/app_name"
+40-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:13:7-39
+41        android:roundIcon="@mipmap/ic_launcher_round"
+41-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:15:7-52
+42        android:supportsRtl="true"
+42-->[com.facebook.android:facebook-android-sdk:4.42.0] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\0d603abdea59eea0c5ee597e776c7692\facebook-android-sdk-4.42.0\AndroidManifest.xml:28:18-44
+43        android:theme="@style/AppTheme"
+43-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:17:7-38
+44        android:usesCleartextTraffic="true" >
+44-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\debug\AndroidManifest.xml:7:18-53
+45        <meta-data
+45-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:19:7-105
+46            android:name="com.facebook.sdk.ApplicationId"
+46-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:19:18-63
+47            android:value="@string/facebook_app_id" />
+47-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:19:64-103
+48
+49        <activity
+49-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:20:7-182
+50            android:name="com.facebook.FacebookActivity"
+50-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:20:17-61
+51            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+51-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:20:62-146
+52            android:label="@string/app_name"
+52-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:20:147-179
+53            android:theme="@style/com_facebook_activity_theme" />
+53-->[com.facebook.android:facebook-common:5.15.3] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\92e1f7c7e88ed9b3dec1cade61e593d1\jetified-facebook-common-5.15.3\AndroidManifest.xml:33:13-63
+54        <activity
+54-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:20:183-542
+55            android:name="com.facebook.CustomTabActivity"
+55-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:20:193-238
+56            android:exported="true" >
+56-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:20:239-262
+57            <intent-filter>
+57-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:20:264-530
+58                <action android:name="android.intent.action.VIEW" />
+58-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:20:280-332
+58-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:20:288-329
+59
+60                <category android:name="android.intent.category.DEFAULT" />
+60-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:20:333-392
+60-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:20:343-389
+61                <category android:name="android.intent.category.BROWSABLE" />
+61-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:20:393-454
+61-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:20:403-451
+62
+63                <data android:scheme="@string/fb_login_protocol_scheme" />
+63-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:20:455-513
+63-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:20:461-510
+64            </intent-filter>
+65            <intent-filter>
+65-->[com.facebook.android:facebook-common:5.15.3] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\92e1f7c7e88ed9b3dec1cade61e593d1\jetified-facebook-common-5.15.3\AndroidManifest.xml:39:13-48:29
+66                <action android:name="android.intent.action.VIEW" />
+66-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:20:280-332
+66-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:20:288-329
+67
+68                <category android:name="android.intent.category.DEFAULT" />
+68-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:20:333-392
+68-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:20:343-389
+69                <category android:name="android.intent.category.BROWSABLE" />
+69-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:20:393-454
+69-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:20:403-451
+70
+71                <data
+71-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:20:455-513
+72                    android:host="cct.com.crocopark"
+73                    android:scheme="fbconnect" />
+73-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:20:461-510
+74            </intent-filter>
+75        </activity>
+76        <activity
+76-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:23:7-33:18
+77            android:name="com.crocopark.MainActivity"
+77-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:24:9-37
+78            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+78-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:26:9-86
+79            android:label="@string/app_name"
+79-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:25:9-41
+80            android:launchMode="singleTask"
+80-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:27:9-40
+81            android:windowSoftInputMode="adjustResize" >
+81-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:28:9-51
+82            <intent-filter>
+82-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:29:9-32:25
+83                <action android:name="android.intent.action.MAIN" />
+83-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:30:13-65
+83-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:30:21-62
+84
+85                <category android:name="android.intent.category.LAUNCHER" />
+85-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:31:13-73
+85-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:31:23-70
+86            </intent-filter>
+87        </activity>
+88
+89        <meta-data
+89-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:34:7-36:71
+90            android:name="com.google.android.geo.API_KEY"
+90-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:35:14-59
+91            android:value="AIzaSyD6v9VpoU5j0Rj0enl6LOxOwz6q32pKAn4" />
+91-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:36:14-69
+92
+93        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+93-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:37:7-84
+93-->C:\Users\mouad\OneDrive\Bureau\Croco\android\app\src\main\AndroidManifest.xml:37:17-81
+94
+95        <provider
+95-->[:react-native-image-picker] C:\Users\mouad\OneDrive\Bureau\Croco\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-18:20
+96            android:name="com.imagepicker.FileProvider"
+96-->[:react-native-image-picker] C:\Users\mouad\OneDrive\Bureau\Croco\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-56
+97            android:authorities="com.crocopark.provider"
+97-->[:react-native-image-picker] C:\Users\mouad\OneDrive\Bureau\Croco\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-60
+98            android:exported="false"
+98-->[:react-native-image-picker] C:\Users\mouad\OneDrive\Bureau\Croco\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-37
+99            android:grantUriPermissions="true" >
+99-->[:react-native-image-picker] C:\Users\mouad\OneDrive\Bureau\Croco\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-47
+100            <meta-data
+100-->[:react-native-image-picker] C:\Users\mouad\OneDrive\Bureau\Croco\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-17:58
+101                android:name="android.support.FILE_PROVIDER_PATHS"
+101-->[:react-native-image-picker] C:\Users\mouad\OneDrive\Bureau\Croco\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-67
+102                android:resource="@xml/provider_paths" />
+102-->[:react-native-image-picker] C:\Users\mouad\OneDrive\Bureau\Croco\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-55
+103        </provider>
+104
+105        <activity android:name="com.facebook.CustomTabMainActivity" /> <!-- Needs to be explicitly declared on P+ -->
+105-->[com.facebook.android:facebook-common:5.15.3] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\92e1f7c7e88ed9b3dec1cade61e593d1\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:9-71
+105-->[com.facebook.android:facebook-common:5.15.3] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\92e1f7c7e88ed9b3dec1cade61e593d1\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:19-68
+106        <uses-library
+106-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\bd8441e52f52fdad6a423774fa7fd105\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+107            android:name="org.apache.http.legacy"
+107-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\bd8441e52f52fdad6a423774fa7fd105\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+108            android:required="false" />
+108-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\bd8441e52f52fdad6a423774fa7fd105\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+109
+110        <activity
+110-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\10746f82a413bba1c20232eca3634674\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
+111            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+111-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\10746f82a413bba1c20232eca3634674\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
+112            android:excludeFromRecents="true"
+112-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\10746f82a413bba1c20232eca3634674\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
+113            android:exported="false"
+113-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\10746f82a413bba1c20232eca3634674\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+114-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\10746f82a413bba1c20232eca3634674\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
+115        <!--
+116            Service handling Google Sign-In user revocation. For apps that do not integrate with
+117            Google Sign-In, this service will never be started.
+118        -->
+119        <service
+119-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\10746f82a413bba1c20232eca3634674\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
+120            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+120-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\10746f82a413bba1c20232eca3634674\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
+121            android:exported="true"
+121-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\10746f82a413bba1c20232eca3634674\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
+122            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+122-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\10746f82a413bba1c20232eca3634674\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
+123
+124        <activity
+124-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\9291741d2071d69600a6fe40bf33dd02\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+125            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+125-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\9291741d2071d69600a6fe40bf33dd02\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+126            android:exported="false"
+126-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\9291741d2071d69600a6fe40bf33dd02\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+127            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+127-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\9291741d2071d69600a6fe40bf33dd02\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+128        <!--
+129         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+130         with the application context. This config is merged in with the host app's manifest,
+131         but there can only be one provider with the same authority activated at any given
+132         point; so if the end user has two or more different apps that use Facebook SDK, only the
+133         first one will be able to use the provider. To work around this problem, we use the
+134         following placeholder in the authority to identify each host application as if it was
+135         a completely different provider.
+136        -->
+137        <provider
+137-->[com.facebook.android:facebook-core:5.15.3] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\70d72fd31bcd4072415c21841ab26063\jetified-facebook-core-5.15.3\AndroidManifest.xml:39:9-42:40
+138            android:name="com.facebook.internal.FacebookInitProvider"
+138-->[com.facebook.android:facebook-core:5.15.3] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\70d72fd31bcd4072415c21841ab26063\jetified-facebook-core-5.15.3\AndroidManifest.xml:40:13-70
+139            android:authorities="com.crocopark.FacebookInitProvider"
+139-->[com.facebook.android:facebook-core:5.15.3] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\70d72fd31bcd4072415c21841ab26063\jetified-facebook-core-5.15.3\AndroidManifest.xml:41:13-72
+140            android:exported="false" />
+140-->[com.facebook.android:facebook-core:5.15.3] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\70d72fd31bcd4072415c21841ab26063\jetified-facebook-core-5.15.3\AndroidManifest.xml:42:13-37
+141
+142        <receiver
+142-->[com.facebook.android:facebook-core:5.15.3] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\70d72fd31bcd4072415c21841ab26063\jetified-facebook-core-5.15.3\AndroidManifest.xml:44:9-50:20
+143            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+143-->[com.facebook.android:facebook-core:5.15.3] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\70d72fd31bcd4072415c21841ab26063\jetified-facebook-core-5.15.3\AndroidManifest.xml:45:13-86
+144            android:exported="false" >
+144-->[com.facebook.android:facebook-core:5.15.3] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\70d72fd31bcd4072415c21841ab26063\jetified-facebook-core-5.15.3\AndroidManifest.xml:46:13-37
+145            <intent-filter>
+145-->[com.facebook.android:facebook-core:5.15.3] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\70d72fd31bcd4072415c21841ab26063\jetified-facebook-core-5.15.3\AndroidManifest.xml:47:13-49:29
+146                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+146-->[com.facebook.android:facebook-core:5.15.3] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\70d72fd31bcd4072415c21841ab26063\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:17-95
+146-->[com.facebook.android:facebook-core:5.15.3] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\70d72fd31bcd4072415c21841ab26063\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:25-92
+147            </intent-filter>
+148        </receiver>
+149
+150        <meta-data
+150-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\0827dab8a61dfe6030c07cd02280b606\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+151            android:name="com.google.android.gms.version"
+151-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\0827dab8a61dfe6030c07cd02280b606\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+152            android:value="@integer/google_play_services_version" />
+152-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\mouad\.gradle\caches\transforms-2\files-2.1\0827dab8a61dfe6030c07cd02280b606\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+153    </application>
+154
+155</manifest>
